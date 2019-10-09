@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">P04</string>
+    <string name="pindah_activity">MOVE ACTIVITY</string>
+    <string name="pindah_activity_dengan_data">MOVE WITH DATA</string>
+    <string name="pindah_activity_dengan_object">MOVE WITH OBJECT</string>
+    <string name="pindah_activity_untuk_result">MOVE FOR RESULT</string>
+    <string name="open_google_website">OPEN GOOGLE WEBSITE</string>
+    <string name="dial_a_number">DIAL A NUMBER</string>
+    <string name="show_my_home">SHOW MY HOME</string>
+    <string name="hasil_dari_activity">RESULT FROM ACTIVITY</string>
+    <string name="ini_move_activity">THIS IS MOVE ACTIVITY</string>
+    <string name="ini_data_yang_dikirim">SENT DATA</string>
+    <string name="pilih_salah_satu_konsentrasi">CHOOSE ONE FIELD OF STUDY</string>
+    <string name="computational_intelligence" translatable="false">COMPUTATIONAL INTELLIGENCE</string>
+    <string name="software_engineering" translatable="false">SOFTWARE ENGINEERING</string>
+    <string name="internet_technology" translatable="false">INTERNET TECHNOLOGY</string>
+    <string name="pilih">CHOOSE</string>
+    <string name="pilihan_anda">YOU CHOSE</string>
+</resources>

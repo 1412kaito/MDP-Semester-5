@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" android:gravity="center"
+    tools:context=".TransferActivity" android:orientation="vertical" android:padding="16dp">
+    <LinearLayout style="@style/LineElement" android:orientation="horizontal"
+        android:layout_marginBottom="8dp">
+        <TextView style="@style/FormElement" android:text="TO: "/>
+        <Spinner style="@style/FormElement" android:id="@+id/spinnerUser" android:layout_width="match_parent"/>
+    </LinearLayout>
+    <LinearLayout style="@style/LineElement" android:orientation="horizontal"
+        android:layout_marginBottom="16dp">
+        <TextView style="@style/FormElement" android:text="JUMLAH: "/>
+        <EditText style="@style/FormElement" android:id="@+id/edtJumlah" android:layout_width="match_parent"/>
+    </LinearLayout>
+    <LinearLayout style="@style/LineElement" android:orientation="horizontal" android:gravity="center">
+        <Button style="@style/FormElement" android:id="@+id/btnTransfer" android:text="TRANSFER"/>
+        <Button style="@style/FormElement" android:id="@+id/btnCancel" android:text="CANCEL"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context=".BuyActivity" android:orientation="vertical"
+    android:padding="16dp">
+    <LinearLayout style="@style/LineElement"
+        android:orientation="horizontal">
+        <TextView style="@style/FlexElement" android:id="@+id/known"
+            android:textColor="@android:color/black"
+            android:hint="yang diketahui"/>
+        <Button style="@style/FlexElement" android:id="@+id/btnBack"
+            android:textColor="@android:color/black"
+            android:text="BACK TO HOME"/>
+    </LinearLayout>
+    <TextView android:textColor="@android:color/black"
+        android:id="@+id/tv1"
+        style="@style/LineElement"
+        android:textSize="20sp" />
+    <LinearLayout android:layout_marginTop="8dp" android:layout_marginBottom="8dp"
+        style="@style/LineElement"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button android:layout_weight="1"
+            android:id="@+id/btn11"
+            style="@style/FlexElement" />
+        <Button android:layout_weight="1"
+            android:id="@+id/btn12"
+            style="@style/FlexElement" />
+    </LinearLayout>
+    <TextView android:textColor="@android:color/black"
+        android:id="@+id/tv3"
+        style="@style/LineElement"
+        android:textSize="20sp" />
+    <LinearLayout android:layout_marginTop="8dp" android:layout_marginBottom="8dp"
+        style="@style/LineElement"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button android:layout_weight="1"
+            android:id="@+id/btn21"
+            style="@style/FlexElement" />
+        <Button android:layout_weight="1"
+            android:id="@+id/btn22"
+            style="@style/FlexElement" />
+    </LinearLayout>
+    <TextView android:textColor="@android:color/black"
+        android:id="@+id/tv2"
+        style="@style/LineElement"
+        android:textSize="20sp" />
+    <LinearLayout android:layout_marginTop="8dp" android:layout_marginBottom="8dp"
+        style="@style/LineElement"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <Button android:layout_weight="1"
+            android:id="@+id/btn31"
+            style="@style/FlexElement" />
+        <Button android:layout_weight="1"
+            android:id="@+id/btn32"
+            style="@style/FlexElement" />
+    </LinearLayout>
+</LinearLayout>

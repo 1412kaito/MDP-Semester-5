@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp" android:orientation="vertical"
+    tools:context=".TopUpActivity" android:gravity="center">
+    <LinearLayout style="@style/LineElement">
+        <TextView style="@style/FormElement" android:text="JUMLAH: "/>
+        <EditText style="@style/FormElement" android:layout_width="match_parent"
+            android:id="@+id/edtValue" android:hint="MINIMAL 10000" android:inputType="number"/>
+    </LinearLayout>
+    <LinearLayout style="@style/LineElement" android:layout_marginTop="32dp">
+        <Button style="@style/FormElement" android:layout_weight="1" android:text="Top Up"
+            android:id="@+id/btnTopUp"/>
+        <Button style="@style/FormElement" android:text="Cancel" android:layout_weight="1"
+            android:id="@+id/btnCancel"/>
+    </LinearLayout>
+</LinearLayout>

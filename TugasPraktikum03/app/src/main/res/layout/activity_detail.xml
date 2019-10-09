@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailActivity"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <LinearLayout
+        style="@style/LineElement"
+        android:gravity="center"
+        android:orientation="horizontal">
+        <TextView style="@style/FlexElement"
+            android:text="Film: "
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+        <TextView android:id="@+id/tvFilm"
+            style="@style/FlexElement"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout style="@style/LineElement" android:orientation="horizontal"
+        android:gravity="center">
+        <TextView style="@style/FlexElement" android:text="Bioskop: "
+            android:textSize="20sp" android:textColor="@android:color/black"/>
+        <TextView style="@style/FlexElement" android:id="@+id/tvBioskop"
+            android:textSize="20sp" android:textColor="@android:color/black"/>
+    </LinearLayout>
+    <LinearLayout style="@style/LineElement"
+        android:gravity="center" android:orientation="horizontal">
+        <TextView style="@style/FlexElement" android:text="Jam: "
+            android:textSize="20sp" android:textColor="@android:color/black"/>
+        <TextView style="@style/FlexElement" android:id="@+id/tvJam" android:textSize="20sp"
+            android:textColor="@android:color/black"/>
+    </LinearLayout>
+    <LinearLayout style="@style/LineElement"
+        android:gravity="center" android:orientation="horizontal">
+        <TextView style="@style/FlexElement" android:text="Jumlah: "
+            android:textSize="20sp" android:textColor="@android:color/black"/>
+        <EditText android:id="@+id/edtJumlah"
+            style="@style/FlexElement"
+            android:inputType="number"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout style="@style/LineElement"
+        android:gravity="center" android:orientation="horizontal">
+        <Button style="@style/FlexElement" android:id="@+id/btnBuy" android:text="BUY" />
+        <Button style="@style/FlexElement" android:id="@+id/btnCancel" android:text="CANCEL"/>
+    </LinearLayout>
+</LinearLayout>

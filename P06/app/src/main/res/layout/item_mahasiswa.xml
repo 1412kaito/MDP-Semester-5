@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp">
+
+    <TextView android:id="@+id/tvNrp"
+        android:hint="NRP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="bold" android:layout_weight="1"
+        android:textSize="24sp"/>
+    <TextView android:id="@+id/tvNama"
+        android:hint="NAMA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textStyle="italic"
+        android:textSize="20sp" android:layout_weight="1"/>
+    <TextView android:id="@+id/tvMajor"
+        android:hint="MAJOR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp" android:layout_weight="1"/>
+
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:padding="16dp"
+    android:layout_height="match_parent" android:orientation="vertical"
+    tools:context=".RegisterActivity" android:gravity="center" android:layout_gravity="center">
+
+    <LinearLayout style="@style/LineElement" android:gravity="center">
+        <TextView style="@style/FormElement" android:text="Nama: "/>
+        <EditText style="@style/FormElement" android:hint="Nama" android:id="@+id/edtNama" android:layout_width="match_parent"/>
+    </LinearLayout>
+
+    <LinearLayout style="@style/LineElement" android:gravity="center">
+        <TextView style="@style/FormElement" android:text="No HP: "/>
+        <EditText style="@style/FormElement" android:hint="No HP" android:id="@+id/edtHP" android:layout_width="match_parent"
+           android:inputType="phone"/>
+    </LinearLayout>
+
+    <LinearLayout style="@style/LineElement" android:gravity="center">
+        <TextView style="@style/FormElement" android:text="Password: "/>
+        <EditText style="@style/FormElement" android:hint="Password" android:layout_width="match_parent"
+            android:inputType="textPassword" android:id="@+id/edtPassword"/>
+    </LinearLayout>
+
+    <Button style="@style/LineElement" android:id="@+id/btnRegis" android:text="REGISTER"/>
+
+    <Button style="@style/LineElement" android:id="@+id/btnToLogin" android:text="TO LOGIN"/>
+
+
+</LinearLayout>

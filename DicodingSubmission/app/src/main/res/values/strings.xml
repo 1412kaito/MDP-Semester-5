@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">dicodingsubmission</string>
+    <string name="alamatemail">ivangoivan@gmail.com</string>
+    <string name="strNama">Ivan Marcellino</string>
+    <string name="contentdescpasfoto">Pas Foto Pembuat</string>
+    <string name="back">Back</string>
+    <string name="list_dexnumber">Dex Number</string>
+    <string name="list_namapokemon">Nama Pokemon</string>
+    <string name="list_detail">Detail</string>
+    <string name="home_btnAbout">About</string>
+</resources>

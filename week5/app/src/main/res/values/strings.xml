@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Menu</string>
+    <string name="view_data">View</string>
+    <string name="search">Search</string>
+    <string name="save_data">Save</string>
+    <string name="clear_data">Clear</string>
+    <string name="send_data">Send</string>
+    <string name="nrp">NRP :</string>
+    <string name="nama_lengkap">Nama Lengkap :</string>
+    <string name="major">Major :</string>
+    <string name="long_click_for_options">long click for options</string>
+    <string name="computational_intelligence">Computational Intelligence</string>
+    <string name="software_engineering">Software Engineering</string>
+    <string name="internet_technology">Internet Technology</string>
+</resources>

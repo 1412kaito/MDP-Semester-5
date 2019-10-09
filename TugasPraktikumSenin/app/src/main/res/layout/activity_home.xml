@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:orientation="vertical"
+    android:layout_height="match_parent" android:padding="16dp"
+    tools:context=".HomeActivity">
+    <LinearLayout style="@style/LineElement" android:orientation="vertical"
+        android:layout_marginTop="64dp">
+        <TextView style="@style/FormElement" android:id="@+id/tvNama"/>
+        <TextView style="@style/FormElement" android:id="@+id/tvHP"/>
+        <TextView style="@style/FormElement" android:id="@+id/tvPassword"/>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent" style="@style/FormElement"
+        android:text="Cash" />
+    <LinearLayout style="@style/LineElement"
+        android:orientation="horizontal">
+        <TextView
+            android:id="@+id/tvCash" style="@style/FormElement"
+            android:layout_weight="1" />
+        <Button
+            android:id="@+id/btnToTopUp" style="@style/FormElement"
+            android:layout_weight="1"
+            android:text="TOP UP" />
+    </LinearLayout>
+    <LinearLayout android:layout_marginBottom="64dp"
+        style="@style/LineElement"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/FormElement"
+            android:layout_weight="1"
+            android:text="Points: " />
+        <TextView
+            android:id="@+id/tvPoints" style="@style/FormElement"
+            android:layout_weight="1" />
+    </LinearLayout>
+    <LinearLayout style="@style/LineElement"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnToTransfer"
+            style="@style/FormElement"
+            android:layout_weight="1"
+            android:text="TRANSFER" />
+        <Button
+            android:id="@+id/btnToPay"
+            style="@style/FormElement"
+            android:layout_weight="1"
+            android:text="PAY" />
+    </LinearLayout>
+</LinearLayout>

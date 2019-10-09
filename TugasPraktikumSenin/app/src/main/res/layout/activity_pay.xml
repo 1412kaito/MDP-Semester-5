@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" tools:context=".PayActivity"
+    android:layout_height="match_parent" >
+    <LinearLayout android:layout_width="match_parent" android:layout_gravity="center"
+        android:layout_height="match_parent" android:padding="16dp"
+        android:orientation="vertical">
+        <LinearLayout style="@style/LineElement" android:orientation="vertical">
+            <TextView style="@style/FormElement" android:id="@+id/tvNama"/>
+            <TextView style="@style/FormElement" android:id="@+id/tvPoints"/>
+            <TextView style="@style/FormElement" android:id="@+id/tvCash"/>
+        </LinearLayout>
+        <LinearLayout style="@style/LineElement" android:orientation="horizontal">
+            <TextView style="@style/FormElement" android:text="Merchant: "/>
+            <EditText style="@style/FormElement" android:layout_width="match_parent"
+                android:id="@+id/edtMerchant"/>
+        </LinearLayout>
+        <ListView android:id="@+id/lvMerchant"
+            style="@style/LineElement" android:layout_height="120dp"
+            android:scrollbars="vertical" />
+        <LinearLayout style="@style/LineElement" android:orientation="horizontal">
+            <TextView style="@style/FormElement" android:text="Jumlah: "/>
+            <EditText style="@style/FormElement" android:layout_width="match_parent"
+                android:id="@+id/edtJumlah" android:inputType="number"/>
+        </LinearLayout>
+        <RadioGroup style="@style/LineElement" android:orientation="horizontal"
+            android:gravity="center_horizontal">
+            <RadioButton style="@style/FormElement" android:text="Cash"
+                android:id="@+id/radioCash"/>
+            <RadioButton style="@style/FormElement" android:text="Point"
+                android:id="@+id/radioPoint"/>
+        </RadioGroup>
+        <LinearLayout style="@style/LineElement" android:orientation="horizontal"
+            android:gravity="center">
+            <Button style="@style/FormElement" android:text="PAY"
+                android:id="@+id/btnPay" />
+            <Button style="@style/FormElement" android:id="@+id/btnCancel"
+                android:text="CANCEL"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

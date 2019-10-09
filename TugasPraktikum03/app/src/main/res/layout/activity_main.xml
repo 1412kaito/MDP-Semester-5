@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:padding="8dp">
+    <TextView style="@style/LineElement"
+        android:textAlignment="viewEnd"
+        android:id="@+id/tvUang"/>
+    <HorizontalScrollView style="@style/LineElement">
+        <LinearLayout
+            style="@style/LineElement"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/imgBoo"
+                style="@style/FlexElement"
+                android:layout_marginRight="4dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/boo"
+                tools:srcCompat="@drawable/boo" />
+
+            <ImageButton
+                android:id="@+id/imgHS"
+                style="@style/FlexElement"
+                android:layout_marginRight="4dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/hs"
+                tools:srcCompat="@drawable/hs" />
+
+            <ImageButton
+                android:id="@+id/imgIT"
+                style="@style/FlexElement"
+                android:layout_marginRight="4dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/it"
+                tools:srcCompat="@drawable/it" />
+        </LinearLayout>
+    </HorizontalScrollView>
+    <TextView style="@style/LineElement"
+        android:text="@string/tBioskop" android:textSize="20sp"
+        android:textColor="@android:color/black"
+        />
+    <Button style="@style/LineElement" android:id="@+id/btn1" android:text="@string/tBtn1"/>
+    <Button style="@style/LineElement" android:id="@+id/btn2" android:text="@string/tBtn2"/>
+    <Button style="@style/LineElement" android:id="@+id/btn3" android:text="@string/tBtn3"/>
+</LinearLayout>

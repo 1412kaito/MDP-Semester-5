@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity"
+    android:padding="8dp">
+    <LinearLayout android:id="@+id/LLatas"
+        style="@style/lineElement"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center"
+        android:padding="8dp">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Nama : "/>
+        <EditText
+            android:id="@+id/edtNama"
+            style="@style/lineElement"/>
+    </LinearLayout>
+    <LinearLayout android:id="@+id/induk"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/LLatas"
+        app:layout_constraintBottom_toBottomOf="parent" >
+        <TextView
+            android:id="@+id/tvSkor"
+            style="@style/lineElement"
+            android:textAlignment="viewEnd"
+            android:text="Score:" android:layout_marginBottom="8dp"/>
+        <LinearLayout style="@style/lineElement"
+            android:orientation="horizontal">
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+        </LinearLayout>
+        <LinearLayout style="@style/lineElement"
+            android:orientation="horizontal">
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+        </LinearLayout>
+        <LinearLayout style="@style/lineElement"
+            android:orientation="horizontal">
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+        </LinearLayout>
+        <LinearLayout style="@style/lineElement"
+            android:orientation="horizontal">
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+        </LinearLayout>
+        <LinearLayout style="@style/lineElement"
+            android:orientation="horizontal">
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+        </LinearLayout>
+        <LinearLayout style="@style/lineElement"
+            android:orientation="horizontal">
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+        </LinearLayout>
+        <LinearLayout style="@style/lineElement"
+            android:orientation="horizontal">
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+        </LinearLayout>
+        <LinearLayout style="@style/lineElement"
+            android:orientation="horizontal">
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+        </LinearLayout>
+        <LinearLayout style="@style/lineElement"
+            android:orientation="horizontal">
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+        </LinearLayout>
+        <LinearLayout style="@style/lineElement"
+            android:orientation="horizontal">
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+            <Button style="@style/btnPapan"/>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

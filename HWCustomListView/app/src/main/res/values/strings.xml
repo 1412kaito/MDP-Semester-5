@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">HWCustomListView</string>
+    <string-array name="data_nama">
+        <item>Bulbasaur</item>
+        <item>Ivysaur</item>
+        <item>Venusaur</item>
+        <item>Charmander</item>
+        <item>Charmeleon</item>
+        <item>Charizard</item>
+        <item>Squirtle></item>
+        <item>Wartortle</item>
+        <item>Blastoise</item>
+        <item>Chikorita</item>
+        <item>Bayleef</item>
+        <item>Meganium</item>
+        <item>Cyndaquil</item>
+        <item>Quilava</item>
+        <item>Typhlosion</item>
+        <item>Totodile</item>
+        <item>Croconaw</item>
+        <item>Feraligatr</item>
+    </string-array>
+    <string-array name="data_details">
+        <item>BULBASAUR can be seen napping in bright sunlight. There is a seed on its back. By
+            soaking up the sun’s rays, the seed grows progressively larger.</item>
+        <item>To support its bulb, IVYSAUR’s legs grow sturdy. If it spends more time lying in the sunlight, the bud will soon bloom into a large flower.</item>
+        <item>VENUSAUR’s flower is said to take on vivid colors if it gets plenty of nutrition and sunlight. The flower’s aroma soothes the emotions of people.</item>
+        <item>The flame that burns at the tip of its tail is an indication of its emotions. The flame wavers when Charmander is enjoying itself. If the Pokémon becomes enraged, the flame burns fiercely.</item>
+        <item>Charmeleon mercilessly destroys its foes using its sharp claws. If it encounters a strong foe, it turns aggressive. In this excited state, the flame at the tip of its tail flares with a bluish white color.</item>
+        <item>Charizard flies around the sky in search of powerful opponents. It breathes fire of such great heat that it melts anything. However, it never turns its fiery breath on any opponent weaker than itself."</item>
+        <item>Squirtle’s shell is not merely used for protection. The shell’s rounded shape and the grooves on its surface help minimize resistance in water, enabling this Pokémon to swim at high speeds.</item>
+        <item>Its tail is large and covered with a rich, thick fur. The tail becomes increasingly deeper in color as Wartortle ages. The scratches on its shell are evidence of this Pokémon’s toughness as a battler.</item>
+        <item>Blastoise has water spouts that protrude from its shell. The water spouts are very accurate. They can shoot bullets of water with enough accuracy to strike empty cans from a distance of over 160 feet.</item>
+        <item>In battle, Chikorita waves its leaf around to keep the foe at bay. However, a sweet fragrance also wafts from the leaf, becalming the battling Pokémon and creating a cozy, friendly atmosphere all around.</item>
+        <item>Bayleef’s neck is ringed by curled-up leaves. Inside each tubular leaf is a small
+            shoot of a tree. The fragrance of this shoot makes people peppy.</item>
+        <item>The fragrance of Meganium’s flower soothes and calms emotions. In battle, this Pokémon gives off more of its becalming scent to blunt the foe’s fighting spirit.</item>
+        <item>"Cyndaquil protects itself by flaring up the flames on its back. The flames are vigorous if the Pokémon is angry. However, if it is tired, the flames splutter fitfully with incomplete combustion.
+            </item>
+        <item>Quilava keeps its foes at bay with the intensity of its flames and gusts of
+            superheated air. This Pokémon applies its outstanding nimbleness to dodge attacks even while scorching the foe with flames.</item>
+        <item>Typhlosion obscures itself behind a shimmering heat haze that it creates using its
+            intensely hot flames. This Pokémon creates blazing explosive blasts that burn everything to cinders.</item>
+        <item>Despite the smallness of its body, Totodile’s jaws are very powerful. While the Pokémon may think it is just playfully nipping, its bite has enough power to cause serious injury.</item>
+        <item>Once Croconaw has clamped its jaws on its foe, it will absolutely not let go. Because the tips of its fangs are forked back like barbed fishhooks, they become impossible to remove when they have sunk in.</item>
+        <item>Feraligatr intimidates its foes by opening its huge mouth. In battle, it will kick the ground hard with its thick and powerful hind legs to charge at the foe at an incredible speed.</item>
+    </string-array>
+
+    <integer-array name="data_dex">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>152</item>
+        <item>153</item>
+        <item>154</item>
+        <item>155</item>
+        <item>156</item>
+        <item>157</item>
+        <item>158</item>
+        <item>159</item>
+        <item>160</item>
+    </integer-array>
+    <array name="data_photo">
+        <item>@drawable/bulbasaur</item>
+        <item>@drawable/ivysaur</item>
+        <item>@drawable/venusaur</item>
+        <item>@drawable/charmander</item>
+        <item>@drawable/charmeleon</item>
+        <item>@drawable/charizard</item>
+        <item>@drawable/squirtle</item>
+        <item>@drawable/wartortle</item>
+        <item>@drawable/blastoise</item>
+        <item>@drawable/chikorita</item>
+        <item>@drawable/bayleef</item>
+        <item>@drawable/meganium</item>
+        <item>@drawable/cyndaquil</item>
+        <item>@drawable/quilava</item>
+        <item>@drawable/typhlosion</item>
+        <item>@drawable/totodile</item>
+        <item>@drawable/croconaw</item>
+        <item>@drawable/feraligatr</item>
+    </array>
+</resources>

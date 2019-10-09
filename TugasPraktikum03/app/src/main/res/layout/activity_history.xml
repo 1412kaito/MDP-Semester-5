@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context=".HistoryActivity"
+    android:orientation="vertical" android:padding="16dp">
+    <LinearLayout style="@style/LineElement" android:orientation="horizontal">
+        <TextView style="@style/FlexElement" android:text="My Tickets"
+            android:textColor="@android:color/black" android:textSize="24sp"/>
+        <Button style="@style/FlexElement" android:id="@+id/btnBack"
+            android:text="BACK TO HOME"/>
+    </LinearLayout>
+    <TextView style="@style/LineElement" android:id="@+id/tvHistory"
+        android:textColor="@android:color/black" android:textSize="18sp"
+        />
+</LinearLayout>

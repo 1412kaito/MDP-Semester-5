@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/search"
+        android:icon="@drawable/ic_search_black_24dp"
+        android:title="@string/search"
+        app:showAsAction="always|collapseActionView"
+        app:actionViewClass="android.widget.SearchView" />
+    <group >
+        <item android:title="@string/view_data"
+            android:id="@+id/viewData"
+            android:icon="@drawable/ic_view_blue_24dp"
+            app:showAsAction="always"/>
+        <item android:title="@string/send_data"
+            android:id="@+id/sendData"
+            android:icon="@drawable/ic_send_black_24dp"
+            app:showAsAction="always"
+            />
+        <item android:title="@string/clear_data"
+            android:id="@+id/clearData"
+            android:icon="@drawable/ic_clear_red_24dp"
+            app:showAsAction="always"/>
+        <item android:title="@string/save_data"
+            android:id="@+id/saveData"
+            android:icon="@drawable/ic_save_white_24dp"
+            app:showAsAction="always"/>
+    </group>
+</menu>

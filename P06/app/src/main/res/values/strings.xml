@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">P06</string>
+    <string-array name="data_nrp">
+        <item id="1">217116606</item>
+        <item id="2">217116607</item>
+        <item id="3">217116608</item>
+        <item id="4">217116609</item>
+        <item id="5">217116610</item>
+        <item id="6">217116611</item>
+        <item id="7">217116612</item>
+        <item id="8">217116613</item>
+        <item id="9">217116614</item>
+        <item id="10">217116615</item>
+    </string-array>
+    <string-array name="data_nama">
+        <item>Enam</item>
+        <item>Tujuh</item>
+        <item>Delapan</item>
+        <item>Sembilan</item>
+        <item>Sepuluh</item>
+        <item>Sebelas</item>
+        <item>Duabelas</item>
+        <item>Tigabelas</item>
+        <item>Empatbelas</item>
+        <item>Limabelas</item>
+    </string-array>
+    <string-array name="data_major">
+        <item>Software Engineering</item>
+        <item>Computational Intelligence</item>
+        <item>Computational Intelligence</item>
+        <item>Internet Technology</item>
+        <item>Internet Technology</item>
+        <item>Computational Intelligence</item>
+        <item>Internet Technology</item>
+        <item>Computational Intelligence</item>
+        <item>Software Engineering</item>
+        <item>Computational Intelligence</item>
+    </string-array>
+</resources>

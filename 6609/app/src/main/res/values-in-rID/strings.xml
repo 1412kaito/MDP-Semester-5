@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">P04</string>
+    <string name="dial_a_number"  >TELEPON</string>
+    <string name="hasil_dari_activity"  >HASIL DARI ACTIVITY</string>
+    <string name="open_google_website"  >BUKA HALAMAN GOOGLE</string>
+    <string name="pindah_activity"  >PINDAH ACTIVITY</string>
+    <string name="pindah_activity_dengan_data"  >PINDAH DENGAN DATA</string>
+    <string name="pindah_activity_dengan_object"  >PINDAH DENGAN OBJECT</string>
+    <string name="pindah_activity_untuk_result"  >PINDAH UNTUK RESULT</string>
+    <string name="show_my_home"  >TAMPILKAN RUMAH</string>
+    <string name="ini_move_activity">INI MOVE ACTIVITY</string>
+    <string name="ini_data_yang_dikirim">INI DATA YANG DIKIRIM</string>
+    <string name="pilih">PILIH</string>
+    <string name="pilih_salah_satu_konsentrasi">PILIH SATU KONSENTRASI</string>
+    <string name="pilihan_anda">"ANDA MEMILIH "</string>
+</resources>

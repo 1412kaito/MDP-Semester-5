@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InviteActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        style="@style/lineElement"
+        android:gravity="center">
+        <TextView
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Masukkan no HP: "
+            />
+        <EditText
+            android:inputType="phone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/phonenumber"
+            android:hint="Nomor HP disini"
+            />
+    </LinearLayout>
+    <Button
+        style="@style/lineElement"
+        android:text="KIRIM"
+        android:id="@+id/btnSEND"/>
+
+</LinearLayout>
